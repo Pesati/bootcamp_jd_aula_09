@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bootcamp-jd-aula-09"
+version = "0.1.0"
+description = ""
+authors = ["pesati <pesatirevoredo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+loguru = "^0.7.2"
+pandas = "^2.2.3"
+fastparquet = "^2024.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
